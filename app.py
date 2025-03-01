@@ -1,3 +1,7 @@
+###################
+# By @PATELOM925 
+###################
+
 import pygame
 import sys
 import math
