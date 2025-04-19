@@ -247,7 +247,6 @@ while running:
     counter_text_y = OUTER_HEIGHT - 60 - (OUTER_HEIGHT - INNER_HEIGHT) // 2 - counter_text_x.get_height() // 2
     screen.blit(counter_text_x, (10, OUTER_HEIGHT - 60 - counter_text_x.get_height() - 10))
     screen.blit(counter_text_o, (10, OUTER_HEIGHT - 30 - counter_text_o.get_height() - 10))
-
     pygame.display.flip()
 
 pygame.quit()
