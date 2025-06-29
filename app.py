@@ -14,12 +14,12 @@ pygame.display.set_caption("Tic Tac Toe")
 
 # Colors
 WHITE = (255, 255, 255)
-ORANGE = (255, 165, 0)
+ORANGE = (255, 166, 0)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
-PURPLE = (128, 0, 128)
+PURPLE = (132, 0, 128)
 
 # Fonts
 font = pygame.font.SysFont("Arial", 60, bold=True)
