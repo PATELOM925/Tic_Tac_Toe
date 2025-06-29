@@ -60,7 +60,7 @@ def get_player_info():
             text_surface = small_font.render(player_texts[i], True, BLACK)
             screen.blit(text_surface, (input_box.x + 5, input_box.y + 5))
             input_box.w = max(200, text_surface.get_width() + 10)
-
+   
             # Draw dropdown for symbols
             pygame.draw.rect(screen, BLACK, dropdown_box, 2)
             symbol_surface = small_font.render(player_symbols[f"Player {i + 1}"], True, BLACK)
